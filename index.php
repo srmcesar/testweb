@@ -1,8 +1,6 @@
-<html>
- <head>
-  <title>Prueba de PHP</title>
- </head>
- <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
- </body>
-</html>
+<?php
+/* Redirigir navegador */
+header(“Location: http://www.servnet.mx/”);
+/* Asegúrese de que el código que aparece a continuación no se ejecutará cuando redireccionamos.*/
+exit;
+?>
